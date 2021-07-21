@@ -1,0 +1,199 @@
+
+intents:
+  - greet
+  - PLM_services
+  - IT_services
+  - engineering_services
+  - goodbye
+  - ask_human
+  - SmartPort
+  - SmartPort_use
+  - SmartPort_install
+  - Smart_Dashboard
+  - Smart_Chatbot
+  - PLM
+  - PLM_software
+  - PLM_cost
+  - advantages_of_PLM
+  - Teamcenter
+  - Teamcenter_rapid_start
+  - Teamcenter_enterprise
+  - Teamcenter_X
+  - Teamcenter_install
+  - Teamcenter_cost
+  - Teamcenter_use
+  - Teamcenter_clients
+  - rich_client
+  - thin_client
+  - thin_client_and_rich_client
+  - Teamcenter_help
+  - SOA
+  - FMS
+  - FSC
+  - FCC
+  - two_tier
+  - four_tier
+  - PTC_Windchill
+  - Composite_ID
+  - PLM_Common_Licensing
+  - license_file_install
+  - product_password
+
+responses:
+
+  utter_SmartPort:
+  - text: "SmartPort is our answer to your PLM support-related problems. It is an advanced one-click solution to your existing system that solves your PLM-related problems in the shortest time."
+
+  utter_SmartPort_use:
+  - text: "SmartPort is a single click add-on solution that provides proactive support, 24x7 dashboard monitoring, user-specific training guidance, and training, providing immediate assistance (which means smart chatbot), resulting in zero downtime."
+  
+  utter_SmartPort_install:
+  - text: "Please bare with us. Your chat is being directed to the next available agent."
+
+  utter_Smart_Dashboard:
+  - text: "It is a 24X7 dashboard monitoring for zero downtime, shortest response time and timely issue analysis. Displays heath of your PLM system in real time."
+  
+  utter_Smart_Chatbot:
+  - text: "It is a smart AI-powered chatbot that converses with users naturally, understanding problems and providing immediate assistance as well personal trainings."
+
+  utter_PLM:
+  - text: "Product lifecycle management (PLM) refers to the management of data and processes used in the design, engineering, manufacturing, sales, and service of a product across its entire lifecycle and across the supply chain."
+
+  utter_PLM_software:
+  - text: "PLM software is a solution that manages all of the information and processes at every step of a product or service lifecycle across globalized supply chains. This includes the data from items, parts, products, documents, requirements, engineering change orders, and quality workflows."
+  
+  utter_PLM_cost:
+  - text: "Unfortunately, PLM Software cost is quote based and varies depending on which product vendor you choose. Cost depends on modules and packages you choose."
+
+  utter_advantages_of_PLM:
+  - text: "Benefits are: improved cycle time, better use of resources, increased productivity, enhanced quality of product, better design integrity and analytics, better communication within supply chain, and Reduced cost of product."
+
+   utter_Teamcenter:
+  - text: "Teamcenter is a cloud-based product lifecycle management platform. It allows users to edit product data and processes such as 3D designs, embedded software, documentation and bill of materials."
+
+  utter_Teamcenter_rapid_start:
+  - text: "Teamcenter Rapid Start is a lighter version of Teamcenter for organizations that need to quickly enable PDM benefits."
+
+  utter_Teamcenter_enterprise:
+  - text: "It is an old platform for Teamcenter. Siemens moved to the Unified platform around 2007."
+
+  utter_Teamcenter_X:
+  - text: "Teamcenter X is a modern cloud-based SaaS PLM platform from Siemens."
+
+  utter_Teamcenter_install:
+  - text: "To install a new version of Teamcenter, launch TEM from a Teamcenter software distribution image(a disc or downloadable image) and select Install from the Overview panel."
+
+  utter_Teamcenter_Types_of_install:
+  - text: "There are two types of Teamcenter installations. Which one do you want?"
+    buttons: 
+    - title: "2-tier"
+      payload: "two_tier"
+    - title: "4-tier"
+      payload: "four_tier"
+
+  utter_Teamcenter_Types_of_client:
+  - text: "There are two types of Teamcenter client interface. Which one do you want?"
+    buttons: 
+    - title: "rich clent"
+      payload: "rich clent"
+    - title: "thin client"
+      payload: "thin client"
+      
+  utter_Teamcenter_cost:
+  - text: "Teamcenter’s price is quote-based and varies depending on which product modules you choose."
+
+  utter_Teamcenter_use:
+  - text: "Teamcenter is used by almost all departments in business for various purposes. Engineering or R&D use it to create, change, release product design definitions like 2D, 3D, BOM, how-to instructions. etc."
+
+  utter_Teamcenter_clients:
+  - text: "There are three clients interface in Teamcenter - rich client, thin client, and active workspace client"
+  
+  utter_rich_client:
+  - text: "The Rich Application Client (RAC) is Teamcenter's most widely used user interface. With the help of the RAC, the user can access all Teamcenter functionalities."
+
+  utter_thin_client:
+  - text: "This is a Web-Based Application, can be accessed using a URL."
+    
+  utter_thin_client_and_rich_client:
+  - text: "Thin Client in Teamcenter is a Web Based Application and we have to use Thin Client by using URL. While coming to Rich Client, it is a Java Based Application in which we can perform integrations."
+
+  utter_Teamcenter_help:
+  - text: " There are many channels for help. The official site for Teamcenter is the Siemens GTAC site. You can always write to us or book a consultation call with us to get free help on any issues you are facing."
+
+  utter_SOA:
+  - text: "Teamcenter Services use service-oriented architecture (SOA). SOA allows for contract-based, coarse-grained interfaces to expose Teamcenter functionality in a standard way."
+
+  utter_FMS:
+  - text: "File Management System (FMS) is one of the Teamcenter components for managing files or vault in Teamcenter."
+
+  utter_FSC:
+  - text: "FMS Server Cache (FSC) is service running on the server side which basically cache file in the server and serves multiple user requests."
+
+  utter_FCC:
+  - text: "FMS client cache (FCC) works on the client machine where it serves the request for a single user and also interacts with FSC for getting latest or new files from the server."
+
+  utter_two_tier:
+  - text: "The two tiers are client tier and resource tier."
+
+  utter_four_tier:
+  - text: "The four tiers are client tier, web tier, enterprise tier, and resource tier."
+  
+  utter_PTC_Windchill:
+  - text: "It is product lifecycle management software that encourages a consolidated view of product information through multi-level data."
+
+  utter_Composite_ID:
+  - text: "This is a 12 digit hexadecimal unique machine identifier that is used as part of Siemens PLM Software licensing to lock a license file to a machine."
+
+  utter_PLM_Common_Licensing:
+  - text: "This is the common licensing toolkit and license daemon that will provide consistent licensing functionality and a common Siemens PLM Software license file across Siemens PLM Software products."
+  
+  utter_license_file_install:
+  - text: "Please refer to the specific product installation instructions for full details."
+
+  utter_product_password:
+  - text: "A product password is a string of characters that a customer must use to generate a license file for the Siemens PLM Software products."
+
+  utter_greet:
+  - text: "Hey! How may i help you? We are providing services for the following:"
+    buttons: 
+    - title: "PLM"
+      payload: "/PLM_services"
+    - title: "IT"
+      payload: "/Digital_Transformation"
+    - title: "Engineering services"
+      payload: "/Engineering_services"
+
+  utter_Digital_Transformation:
+  - text: "Here are the following softwares we provided on IT services - IoT, AI & ML, Web app development, and Cloud services."
+
+  utter_PLM_services:
+  - text: "Here are the following softwares we provided on PLM services"
+    buttons: 
+    - title: "Teamcenter"
+      payload: "/Teamcenter"
+    - title: "PTC Windchill"
+      payload: "/PTC_Windchill"
+
+  utter_Engineering_services:
+  - text: "Here are the following softwares we provided on engineering services - Design, CAD services, CAE services, and  Control systems."
+    
+  utter_continue:
+  - text: "Do you want to continue?"
+    buttons: 
+    - title: "Yes"
+      payload: "utter_yes"
+    - title: "No"
+      payload: "utter_no"
+
+  utter_affirm:
+  - text: "Okay that sounds good! Ask your queries."
+
+  utter_goodbye: 
+  - text: "Bye"
+
+  utter_ask_human:
+  - text: "Thank you. Your chat is being directed to the next available agent."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
